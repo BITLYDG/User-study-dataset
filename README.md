@@ -17,7 +17,7 @@ Please cite our SIGIR'25 paper if you use this data. Thanks!
 | type | text | Tasks are divided into three types: Factual, Mis-Factual and Exploratory |
 ---
 
-### `task_query_image.tsv`
+### `bingchat.tsv`
 
 
 | Field	| Type	| Description |
