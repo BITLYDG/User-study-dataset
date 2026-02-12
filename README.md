@@ -24,15 +24,15 @@ Please cite our SIGIR'25 paper if you use this data. Thanks!
 | ------ | ------ | ------ |
 | user | #40 indexs | Index used to distinguish users |
 | task_id | #24 indexs | Index used to distinguish tasks |
-| query_id | index | inner-id of the search query |
-| query | text |the query text |
-| response | text| Bing Chat's response |
-| pre_familiar | 1(low)~5(high) | user perceived task familiarity |
-| pre_difficulty | 1(low)~5(high) | user perceived task difficulty |
-| satisfactory | 1(low)~5(high) | user’s satisfaction feedback on a search session | 
-| success_self| 1(low)~5(high) | user’s success feedback on a search session | 
-| credibility | 1(low)~5(high) | user’s feedback on responses reliability |
-| click | [json] | Information related to the user's click operation, including the URL, the link id, rank, and type  |
+| query_id | index | Inner-id of the search query |
+| query | text | The query text |
+| response | text | Bing Chat's response |
+| pre_familiar | 1(low)~5(high) | User perceived task familiarity |
+| pre_difficulty | 1(low)~5(high) | User perceived task difficulty |
+| satisfactory | 1(low)~5(high) | User’s satisfaction feedback on a search session | 
+| success_self| 1(low)~5(high) | User’s success feedback on a search session | 
+| credibility | 1(low)~5(high) | User’s feedback on responses reliability |
+| click | [json] | Information related to the user's click operation, including the URL, the link id, rank and type  |
 | cumulative_sat | 1(low)~5(high) | User's cumulative satisfaction for the current query |
 ---
 
